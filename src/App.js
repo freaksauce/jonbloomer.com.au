@@ -1,26 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { object } from 'prop-types';
+import Profile from './sections/Profile';
+import About from './sections/About';
+import Work from './sections/Work';
+import Skills from './sections/Skills';
+import Education from './sections/Education';
+import './App.css'
 
-function App() {
+const App = props => {
+  const { jsonObj: { basics, work, skills, education } } = props
+  const profileData = basics;
+  const aboutData = profileData.summary;
+  const workData = work;
+  const skillsData = skills;
+  const educationData = education;
+  // console.log(profileData)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <aside>
+        <div className="inner">
+          <Profile profileData={profileData} />
+        </div>
+      </aside>
+      <main>
+        <div className="inner">
+          <About aboutData={aboutData} />
+          <Work workData={workData} />
+          <Skills skillsData={skillsData} />
+          <Education educationData={educationData} />
+        </div>
+      </main>
     </div>
-  );
+    )
+};
+
+App.propTypes = {
+    jsonObj: object.isRequired
 }
 
 export default App;

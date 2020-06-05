@@ -1,0 +1,189 @@
+{
+  "basics": {
+    "name": "Jonathan Bloomer",
+    "label": "Senior Front End Developer",
+    "picture": "https://avatars2.githubusercontent.com/u/5125097?s=460&u=5acbf5124c06af88a9068f8dd3a5a0e3e27de323&v=4",
+    "email": "jonbloomer@gmail.com",
+    "phone": "0403933281",
+    "website": "http://jonbloomer.com.au",
+    "summary": "Over the past 18 years I have continuously challenged myself with new languages, frameworks and methodologies. My core languages have always been html, css & javascript but I have also worked as a full stack php developer building both bespoke CMS solutions and small business applications. My current role at IAG is Front End Developer (or Software Engineer as IAG prefer to label us) for a small React team and have been developing with React and Redux for the past 3 years.",
+    "location": {
+      "address": "Sutherland",
+      "postalCode": "2232",
+      "city": "Sydney",
+      "countryCode": "Aus",
+      "region": "NSW"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "jonbloomer",
+        "url": ""
+      },
+      {
+        "network": "Github",
+        "username": "freaksauce",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "IAG",
+      "position": "Senior Front End Developer",
+      "website": "http://iag.com.au",
+      "startDate": "08/2016",
+      "endDate": "",
+      "summary": "I am currently working as a senior front end developer on IAG's Chroma Design System team, however as there are only two developers on the team we have also been required to setup CI/CD workflows in Circle CI/Github Actions as well as hosting environments in AWS. I have had experience setting up deployments to S3 via the AWS CLI from Github Actions and setting up CloudFront, Route 53 and simple Lambda functions. I have also been responsible for creating and maintaining components both in our Core product which is html/scss and our React npm package which is consumed by the app development teams and setting up testing and documentation across the design system. I have had experience working on multiple applications at IAG that have been built or are being built using React/Redux running on top of a Node Express Server and interfacing with an API backend architecture to access the various IAG systems. We are striving to increase the quality of our projects with good test coverage and code reviews and improving our continuous integration practices.",
+      "highlights": []
+    },
+    {
+      "company": "Pacific Magazines",
+      "position": "Senior Front End Developer",
+      "website": "",
+      "startDate": "03/2016",
+      "endDate": "08/2016",
+      "summary": "During my time at Pacific Magazines I worked on a couple of large React applications using React/Redux to integrate with a .NET MVC Application.",
+      "highlights": []
+    },
+    {
+      "company": "IAG",
+      "position": "UI Developer",
+      "website": "http://nrma.com.au",
+      "startDate": "11/2014",
+      "endDate": "03/2016",
+      "summary": "Working as a UI developer as part of IAG Labs developing html/css/javascript solutions to integrate with the backend systems for the online quoting applications.",
+      "highlights": []
+    },
+    {
+      "company": "Reactive",
+      "position": "Front End Developer",
+      "website": "",
+      "startDate": "09/2014",
+      "endDate": "11/2014",
+      "summary": "At Reactive I was responsible for working with a .NET team to deliver templates using javascript/sass/grunt and handlebars. I also had exposure to TFS for source control.",
+      "highlights": []
+    },
+    {
+      "company": "City of Sydney Council",
+      "position": "Front End Developer",
+      "website": "",
+      "startDate": "05/2014",
+      "endDate": "08/2014",
+      "summary": "For City of Sydney I was a Front End Developer working with Wordpress on multiple key websites such as Sydneynewyearseve.com.au. All code was developed using LESS and Bootstrap for a consistent responsive interface.",
+      "highlights": []
+    },
+    {
+      "company": "Self Employed",
+      "position": "Freelance Web Developer",
+      "website": "",
+      "startDate": "03/2010",
+      "endDate": "05/2014",
+      "summary": "As a freelance web developer I mainly concentrated on building bespoke CMS solutions for agencies using Wordpress. As a full stack developer my responsibilities included setting up hosting, domains, databases and delivering an easy to use custom Wordpress theme with Advanced Custom Fields and toward the latter end of my freelance venture, responsive layouts.",
+      "highlights": []
+    },
+    {
+      "company": "Soap Creative",
+      "position": "Senior Web Developer",
+      "website": "http://soapcreative.com",
+      "startDate": "07/2006",
+      "endDate": "03/2010",
+      "summary": "At SOAP I was required to carry out full stack duties across a broad range of projects including php/MySQL with front end technologies ranging from html/css to Flash.",
+      "highlights": []
+    },
+    {
+      "company": "M&C Saatchi",
+      "position": "Web Developer",
+      "website": "http://mcsaatchi.com.au/",
+      "startDate": "05/2006",
+      "endDate": "08/2006",
+      "summary": "Flash development with xml & amfphp for php/mysql integration.",
+      "highlights": []
+    },
+    {
+      "company": "Wunderman/GPY&R",
+      "position": "Web Developer",
+      "website": "http://www.gpyr.com.au/",
+      "startDate": "07/2005",
+      "endDate": "05/2006",
+      "summary": "Flash developer using xml & amfphp, html/css with php/mysql backend integration and CMS development.",
+      "highlights": []
+    },
+    {
+      "company": "Federal Publishing Company",
+      "position": "Web Developer",
+      "website": "",
+      "startDate": "07/2004",
+      "endDate": "03/2005",
+      "summary": "Lead web developer on homehound.com.au, html/css/javascript development with php & SQL server integration.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Birmingham Conservatoire",
+      "area": "Music",
+      "studyType": "Bachelor (hons)",
+      "startDate": "08/1994",
+      "endDate": "07/1998",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Front End Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "ES2015",
+        "ES2016",
+        "ES2017",
+        "ES2018",
+        "ES2019",
+        "ES6",
+        "React",
+        "jQuery",
+        "SASS",
+        "LESS",
+        "AWS",
+        "Github",
+        "Webpack",
+        "Handlebars",
+        "Gulp",
+        "Grunt",
+        "Babel",
+        "CircleCI",
+        "TravisCI",
+        "Heroku",
+        "CI",
+        "CD",
+        "Bootstrap",
+        "Node",
+        "php",
+        "MySQL",
+        "Git",
+        "Jira",
+        "Responsive"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Guitar",
+      "keywords": []
+    }
+  ],
+  "references": []
+}
