@@ -15,11 +15,11 @@ const Profile = props => {
       </ul>
       <div className="divider"></div>
       <ul className="profileLinks text-center">
-        <li><a className="fa fa-twitter fa-2x" href={'https://twitter.com/'+profileData.profiles[0].username}></a></li>
-        <li><a className="fa fa-github fa-2x" href={'https://github.com/'+profileData.profiles[1].username}></a></li>
+        <li><a className="fa fa-twitter fa-2x" href={'https://twitter.com/'+profileData.profiles[0].username}><span className="sr-only">twitter</span></a></li>
+        <li><a className="fa fa-github fa-2x" href={'https://github.com/'+profileData.profiles[1].username}><span className="sr-only">github</span></a></li>
       </ul>
       <div className="divider"></div>
-      <p className="small-text">I built this site with <a href="https://facebook.github.io/react/">React</a> components and a <a href="https://jsonresume.org/schema/">JSON Resume Schema</a>. The full source code can be found in <a href="https://github.com/freaksauce/React-Resume-ES6">my Github repo</a>.</p>
+      <p className="small-text">I built this site with <a href="https://facebook.github.io/react/">React</a> components and a <a href="https://jsonresume.org/schema/">JSON Resume Schema</a>. The full source code can be found in <a href="https://github.com/freaksauce/jonbloomer.com.au">my Github repo</a>.</p>
     </div>
   )
 };
