@@ -12,7 +12,7 @@ p {
     "aside"
     "main"
   ;
-  width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -22,13 +22,23 @@ p {
     grid-template-areas: 
       "aside main"
     ;
+    width: 992px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    grid-template-columns: 30% 1fr;
+    grid-template-areas: 
+      "aside main"
+    ;
+    width: 1170px;
   }
 }
 main {
-  grid-area: 'main'
+  grid-area: main;
 }
 aside {
-  grid-area: 'aside'
+  grid-area: aside;
 }
 aside .inner, main .inner {
   background: #fff;
