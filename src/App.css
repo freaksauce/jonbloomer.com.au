@@ -1,3 +1,7 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
 body {
   background: #f0f0f0;
   font-family: 'Roboto', sans-serif;
@@ -13,16 +17,16 @@ p {
     "main"
   ;
   width: 100%;
-  padding: 0 15px;
   margin: 0 auto;
 }
 @media (min-width: 500px) {
   .container {
     grid-template-columns: 30% 1fr;
     grid-template-areas: 
-      "aside main"
+    "aside main"
     ;
     width: 992px;
+    /* padding: 0 15px; */
   }
 }
 @media (min-width: 992px) {
