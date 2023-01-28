@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Jonathan Bloomer",
-    "label": "Senior Front End Developer",
+    "label": "Lead Front End Developer",
     "picture": "https://avatars2.githubusercontent.com/u/5125097?s=460&u=5acbf5124c06af88a9068f8dd3a5a0e3e27de323&v=4",
     "email": "jonbloomer@gmail.com",
     "phone": "0403933281",
     "website": "http://jonbloomer.com.au",
-    "summary": "Over the past 20 years I have continuously challenged myself with new languages, frameworks and methodologies. My core languages have always been html, css & javascript but I have also worked as a full stack php developer building both bespoke CMS solutions and small business applications. My current role at IAG is Senior Front End Developer (or Senior Software Engineer as IAG prefer to label us) and have been developing with React and Redux for the past 4 years.",
+    "summary": "Over the past 20 years I have continuously challenged myself with new languages, frameworks and methodologies. My core languages have always been html, css & javascript but I have also worked as a full stack php developer building both bespoke CMS solutions and small business applications. My current role at IAG is Lead Front End Developer (or Lead Software Engineer as IAG prefer to label us) and have been developing React applications and components.",
     "location": {
       "address": "Sutherland",
       "postalCode": "2232",
@@ -30,11 +30,11 @@
   "work": [
     {
       "company": "IAG",
-      "position": "Senior Front End Developer",
+      "position": "Lead Front End Developer",
       "website": "http://iag.com.au",
       "startDate": "08/2016",
       "endDate": "",
-      "summary": "I am currently working as a senior front end developer on IAG's Chroma Design System team, however as there are only two developers on the team we have also been required to setup CI/CD workflows in Circle CI/Github Actions as well as hosting environments in AWS. I have had experience setting up deployments to S3 via the AWS CLI from Github Actions and setting up CloudFront, Route 53 and simple Lambda functions. I have also been responsible for creating and maintaining components both in our Core product which is html/scss and our React npm package which is consumed by the app development teams and setting up testing and documentation across the design system. I have had experience working on multiple applications at IAG that have been built or are being built using React/Redux running on top of a Node Express Server and interfacing with an API backend architecture to access the various IAG systems. We are always striving to increase the quality of our projects with good test coverage and code reviews.",
+      "summary": "I am currently working as a lead front end developer on IAG's Chroma Design System team and have been responsible with setting up CI/CD workflows in Github Actions as well as hosting environments in AWS. I have had experience setting up deployments to S3 via the AWS CLI from Github Actions and setting up CloudFront, Route 53 and simple Lambda functions. I have also been responsible for creating and maintaining components both in our old Core product which is html/scss alongside a React npm package which is consumed by the app development teams as well as our new token based component library in Bit. I have also set up testing and documentation across the design system. I have had experience working on multiple applications at IAG that have been built or are being built using React/Redux running on top of a Node Express Server and interfacing with an API backend architecture to access the various IAG systems. We are always striving to increase the quality of our projects with good test coverage and code reviews.",
       "highlights": []
     },
     {
